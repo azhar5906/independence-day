@@ -54,7 +54,7 @@ button:hover {
 
 .mark{
     width: 500px;
-margin-left: 32.5%;    
+    margin-left: 32.5%;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ margin-left: 32.5%;
 
 .flag-strip {
     height: 60px;
-    animation: wave 1.5s infinite ease-in-out;
+    animation: wave 1.5s infinite ease;
 }
 
 .saffron {
@@ -123,6 +123,11 @@ margin-left: 32.5%;
     margin-top: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 1.5s ease;
+}
+.responsive-img:hover{
+    background-image: url("war-img.jpeg");
+    background-size: contain;
+
 }
 
 .freedom-fighters {
@@ -192,9 +197,8 @@ margin-left: 32.5%;
     cursor: pointer;
 }
 .link2{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-left: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +210,13 @@ margin-left: 32.5%;
     text-decoration: none;
     border-radius: 25px;
     cursor: pointer;
+}
+.title:hover{
 
+    background: linear-gradient( #ff5906, #ffffff , green) ;
+    -webkit-background-clip: text;
+    font-size: 45px;
+    -webkit-text-fill-color: transparent;
 }
 .info-box.active {
     display: block;
